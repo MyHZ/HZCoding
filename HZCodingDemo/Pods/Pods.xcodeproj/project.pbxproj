@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278FEA1065CB15796BC8C5507B16ED7D /* Pods-HZCodingDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7222C915C2D05F074FBDD8DADF93CB73 /* Pods-HZCodingDemo-dummy.m */; };
+		29DA4EB308571A098371265E28F1727F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		60859E5ED8FDF2D543BFE77F9CF48C04 /* NSObject+HZCoding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E02BE4FEA76F884DD872CA49824CE8AE /* NSObject+HZCoding-dummy.m */; };
+		A2A704C08C2A84AE0F337E31F7B83BFB /* NSObject+HZCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1096FC420F1EBB92A9801037F387E /* NSObject+HZCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAF14DFBC3A774497595C5BF06AE59DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C29CB3F46816B336E0F1304C1BE62B88 /* NSObject+HZCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = ED091867605B63DDA8E9CC2457452168 /* NSObject+HZCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AC002148EC1A6B9E8D2C5A03EE942AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6BD07BF94AA6791A175141EE9E2BBBE;
+			remoteInfo = "NSObject+HZCoding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1114C066A2F878CB36A0E9E4F71C216B /* Pods-HZCodingDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZCodingDemo-frameworks.sh"; sourceTree = "<group>"; };
+		183BD06478ABDBDB90D8A12C58227367 /* Pods-HZCodingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZCodingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3CE86A2EC694C37003BDF47BD71A36C2 /* NSObject+HZCoding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSObject+HZCoding.xcconfig"; sourceTree = "<group>"; };
+		529270FEEE6F8949A45024EA52D4752C /* libNSObject+HZCoding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libNSObject+HZCoding.a"; path = "libNSObject+HZCoding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5598A788E34220AD725BFCF008CFC63D /* NSObject+HZCoding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+HZCoding-prefix.pch"; sourceTree = "<group>"; };
+		65339C93AE02F3BC2F3B38F55D4452E0 /* Pods-HZCodingDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZCodingDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7222C915C2D05F074FBDD8DADF93CB73 /* Pods-HZCodingDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZCodingDemo-dummy.m"; sourceTree = "<group>"; };
+		848FDA2B46C1CD3C0CAA2A53AC0A6371 /* Pods-HZCodingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZCodingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9229A4A63F006C71CDD9C561D86EEF27 /* Pods-HZCodingDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZCodingDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFCA42D008885621C532ED6FF2A96681 /* libPods-HZCodingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HZCodingDemo.a"; path = "libPods-HZCodingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02BE4FEA76F884DD872CA49824CE8AE /* NSObject+HZCoding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HZCoding-dummy.m"; sourceTree = "<group>"; };
+		E0EC4398EBDC410DCD5080327BA5A72C /* Pods-HZCodingDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZCodingDemo-resources.sh"; sourceTree = "<group>"; };
+		E2C1096FC420F1EBB92A9801037F387E /* NSObject+HZCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HZCoding.h"; path = "NSObject+HZCoding/NSObject+HZCoding.h"; sourceTree = "<group>"; };
+		ED091867605B63DDA8E9CC2457452168 /* NSObject+HZCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HZCoding.m"; path = "NSObject+HZCoding/NSObject+HZCoding.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6587FBB544205A9D9867B5E6EABB5585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF14DFBC3A774497595C5BF06AE59DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD930A0B027BB54B7F11793BF5D9A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DA4EB308571A098371265E28F1727F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E6817639649234E1E31E1302CD4BED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B600EFFD86BDC74648DDE6CBA615BF88 /* NSObject+HZCoding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C48A8437E31294549C7EC4FE7DDA1E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CE86A2EC694C37003BDF47BD71A36C2 /* NSObject+HZCoding.xcconfig */,
+				E02BE4FEA76F884DD872CA49824CE8AE /* NSObject+HZCoding-dummy.m */,
+				5598A788E34220AD725BFCF008CFC63D /* NSObject+HZCoding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSObject+HZCoding";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				14E6817639649234E1E31E1302CD4BED /* Pods */,
+				A08A57127B0140D146D6FF690E0B2D88 /* Products */,
+				AB2350CB58512D035CCA81E228BA8E79 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A08A57127B0140D146D6FF690E0B2D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529270FEEE6F8949A45024EA52D4752C /* libNSObject+HZCoding.a */,
+				CFCA42D008885621C532ED6FF2A96681 /* libPods-HZCodingDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2350CB58512D035CCA81E228BA8E79 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC35C13EB453069F2D215D0DC0E61D2 /* Pods-HZCodingDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B600EFFD86BDC74648DDE6CBA615BF88 /* NSObject+HZCoding */ = {
+			isa = PBXGroup;
+			children = (
+				E2C1096FC420F1EBB92A9801037F387E /* NSObject+HZCoding.h */,
+				ED091867605B63DDA8E9CC2457452168 /* NSObject+HZCoding.m */,
+				3C48A8437E31294549C7EC4FE7DDA1E2 /* Support Files */,
+			);
+			name = "NSObject+HZCoding";
+			path = "NSObject+HZCoding";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDC35C13EB453069F2D215D0DC0E61D2 /* Pods-HZCodingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65339C93AE02F3BC2F3B38F55D4452E0 /* Pods-HZCodingDemo-acknowledgements.markdown */,
+				9229A4A63F006C71CDD9C561D86EEF27 /* Pods-HZCodingDemo-acknowledgements.plist */,
+				7222C915C2D05F074FBDD8DADF93CB73 /* Pods-HZCodingDemo-dummy.m */,
+				1114C066A2F878CB36A0E9E4F71C216B /* Pods-HZCodingDemo-frameworks.sh */,
+				E0EC4398EBDC410DCD5080327BA5A72C /* Pods-HZCodingDemo-resources.sh */,
+				183BD06478ABDBDB90D8A12C58227367 /* Pods-HZCodingDemo.debug.xcconfig */,
+				848FDA2B46C1CD3C0CAA2A53AC0A6371 /* Pods-HZCodingDemo.release.xcconfig */,
+			);
+			name = "Pods-HZCodingDemo";
+			path = "Target Support Files/Pods-HZCodingDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10C939862438C0DA277DCD5F992717BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A704C08C2A84AE0F337E31F7B83BFB /* NSObject+HZCoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6BD07BF94AA6791A175141EE9E2BBBE /* NSObject+HZCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67DA53C6015A72019F5381D02092C743 /* Build configuration list for PBXNativeTarget "NSObject+HZCoding" */;
+			buildPhases = (
+				2F0E616A9208E7DC2BC06D4AADFF1F63 /* Sources */,
+				6587FBB544205A9D9867B5E6EABB5585 /* Frameworks */,
+				10C939862438C0DA277DCD5F992717BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSObject+HZCoding";
+			productName = "NSObject+HZCoding";
+			productReference = 529270FEEE6F8949A45024EA52D4752C /* libNSObject+HZCoding.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7BEFD9AD4EE88258C3839424ADEE395 /* Pods-HZCodingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A361879CF34D9D953FF4219AF63CC1D3 /* Build configuration list for PBXNativeTarget "Pods-HZCodingDemo" */;
+			buildPhases = (
+				2F051E8A27F6135E47880081CC8044A6 /* Sources */,
+				DAD930A0B027BB54B7F11793BF5D9A16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE08D52C51D5F42B79C974CA289665B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HZCodingDemo";
+			productName = "Pods-HZCodingDemo";
+			productReference = CFCA42D008885621C532ED6FF2A96681 /* libPods-HZCodingDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A08A57127B0140D146D6FF690E0B2D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6BD07BF94AA6791A175141EE9E2BBBE /* NSObject+HZCoding */,
+				D7BEFD9AD4EE88258C3839424ADEE395 /* Pods-HZCodingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F051E8A27F6135E47880081CC8044A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278FEA1065CB15796BC8C5507B16ED7D /* Pods-HZCodingDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0E616A9208E7DC2BC06D4AADFF1F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60859E5ED8FDF2D543BFE77F9CF48C04 /* NSObject+HZCoding-dummy.m in Sources */,
+				C29CB3F46816B336E0F1304C1BE62B88 /* NSObject+HZCoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE08D52C51D5F42B79C974CA289665B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSObject+HZCoding";
+			target = A6BD07BF94AA6791A175141EE9E2BBBE /* NSObject+HZCoding */;
+			targetProxy = 7AC002148EC1A6B9E8D2C5A03EE942AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E257C065D3A4BA3ED2C8444AD26D727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE86A2EC694C37003BDF47BD71A36C2 /* NSObject+HZCoding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSObject+HZCoding/NSObject+HZCoding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B28FECE674802CBCC2859F9F2F1BDAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183BD06478ABDBDB90D8A12C58227367 /* Pods-HZCodingDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D93A9FAB878EB4E8079C1587813A9DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848FDA2B46C1CD3C0CAA2A53AC0A6371 /* Pods-HZCodingDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E1BE31857679E2FE2EF294D8E1736090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE86A2EC694C37003BDF47BD71A36C2 /* NSObject+HZCoding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSObject+HZCoding/NSObject+HZCoding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67DA53C6015A72019F5381D02092C743 /* Build configuration list for PBXNativeTarget "NSObject+HZCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E257C065D3A4BA3ED2C8444AD26D727 /* Debug */,
+				E1BE31857679E2FE2EF294D8E1736090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A361879CF34D9D953FF4219AF63CC1D3 /* Build configuration list for PBXNativeTarget "Pods-HZCodingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28FECE674802CBCC2859F9F2F1BDAE6 /* Debug */,
+				D93A9FAB878EB4E8079C1587813A9DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

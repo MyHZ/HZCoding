@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NSObject+HZCoding"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "NSObject+HZCoding  ."
 
   # This description is used to generate tags and improve search results.
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "NSObject", "NSObject+HZCoding/NSObject+HZCoding.{h,m}"
+  #s.exclude_files = ""
 
   # s.public_header_files = "Classes/**/*.h"
 

@@ -1,0 +1,12 @@
+PODS:
+  - NSObject+HZCoding (1.0.1)
+
+DEPENDENCIES:
+  - NSObject+HZCoding (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  NSObject+HZCoding: e8d9629e3398449fa17b42a5d54b6b2570390d17
+
+PODFILE CHECKSUM: d9867a45fa12fa9f95f8a3abb757fe7227405fac
+
+COCOAPODS: 1.2.1.beta.1
