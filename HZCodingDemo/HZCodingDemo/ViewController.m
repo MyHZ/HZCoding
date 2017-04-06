@@ -33,6 +33,8 @@
 {
     Person *person = (Person *)[NSKeyedUnarchiver unarchiveObjectWithFile:[self getFilePath]];
     
+    //获取对象的所有属性和属性内容
+    NSLog(@"%@",[person getAllPropertiesAndVaules]);
 }
 
 -(NSString *)getFilePath

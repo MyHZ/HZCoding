@@ -6,6 +6,14 @@
 -(void)HZ_encode:(NSCoder *)aCoder;
 -(void)HZ_decode:(NSCoder *)aDecoder;
 
+-(NSArray *)getAllProperties;
+
+/* 获取对象的所有方法 */
+-(NSArray *)getAllMethods;
+
+/* 获取对象的所有属性和属性内容 */
+-(NSDictionary *)getAllPropertiesAndVaules;
+
 #define HZCodingImplementation \
 -(void)encodeWithCoder:(NSCoder *)aCoder\
 {\

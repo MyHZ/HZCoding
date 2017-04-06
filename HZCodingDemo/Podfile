@@ -7,6 +7,6 @@ target 'HZCodingDemo' do
 
   # Pods for HZCodingDemo
 
-pod 'NSObject+HZCoding', '~> 1.0.1'
+ pod 'NSObject+HZCoding', '~> 1.2.0'
 
 end

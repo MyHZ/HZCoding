@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NSObject+HZCoding"
-  s.version      = "1.0.1"
+  s.version      = "1.2.0"
   s.summary      = "NSObject+HZCoding  ."
 
   # This description is used to generate tags and improve search results.
