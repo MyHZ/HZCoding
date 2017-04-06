@@ -1,0 +1,6 @@
+framework module NSObject_HZCoding {
+  umbrella header "NSObject+HZCoding-umbrella.h"
+
+  export *
+  module * { export * }
+}
